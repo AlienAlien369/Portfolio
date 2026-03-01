@@ -1,0 +1,55 @@
+import type { Metadata, Viewport } from 'next'
+import './globals.css'
+
+export const metadata: Metadata = {
+  title: 'Lakshya Grover — Full-Stack Cloud Engineer',
+  description: 'Full-Stack Engineer specializing in scalable enterprise systems, ASP.NET Core, React.js, TypeScript, and cloud architecture. Building precision-engineered software that scales.',
+  keywords: ['Lakshya Grover', 'Full Stack Engineer', 'ASP.NET Core', 'React', 'TypeScript', 'Cloud Engineer', '.NET Developer', 'Software Engineer India'],
+  authors: [{ name: 'Lakshya Grover', url: 'https://lakshyagrover.dev' }],
+  creator: 'Lakshya Grover',
+  openGraph: {
+    type: 'website',
+    locale: 'en_US',
+    url: 'https://lakshyagrover.dev',
+    title: 'Lakshya Grover — Full-Stack Cloud Engineer',
+    description: 'Engineering scalable systems with precision. Full-Stack Engineer with expertise in cloud architecture, .NET ecosystem, and modern frontend.',
+    siteName: 'Lakshya Grover Portfolio',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Lakshya Grover — Full-Stack Cloud Engineer',
+    description: 'Engineering scalable systems with precision.',
+    creator: '@lakshyagrover',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+}
+
+export const viewport: Viewport = {
+  themeColor: '#030712',
+  width: 'device-width',
+  initialScale: 1,
+}
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode
+}) {
+  return (
+    <html lang="en" className="dark">
+      <body className="noise antialiased">
+        {children}
+      </body>
+    </html>
+  )
+}
