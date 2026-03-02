@@ -35,9 +35,9 @@ export const metadata: Metadata = {
     siteName: 'Lakshya Grover Portfolio',
     images: [
       {
-        url: '/opengraph-image',
-        width: 1200,
-        height: 630,
+        url: '/icon.svg',
+        width: 512,
+        height: 512,
         alt: 'Lakshya Grover Portfolio',
       },
     ],
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     title: 'Lakshya Grover - Full-Stack Cloud Engineer',
     description: 'Engineering scalable systems with precision.',
     creator: '@lakshyagrover',
-    images: ['/twitter-image'],
+    images: ['/icon.svg'],
   },
   robots: {
     index: true,
