@@ -89,7 +89,7 @@ function ParticleCanvas() {
 export default function HeroSection() {
   const resumeUrl = process.env.NEXT_PUBLIC_RESUME_URL || '/Lakshya%20Grover.pdf'
   const sectionRef = useRef<HTMLElement>(null)
-  const { scrollYProgress } = useScroll({ target: sectionRef })
+  const { scrollYProgress } = useScroll({ target: sectionRef, offset: ['start start', 'end start'] })
   const y = useTransform(scrollYProgress, [0, 1], [0, -100])
   const opacity = useTransform(scrollYProgress, [0, 0.8], [1, 0])
 
