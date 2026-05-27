@@ -13,7 +13,7 @@ const links = [
 ]
 
 export default function Navbar() {
-  const resumeUrl = process.env.NEXT_PUBLIC_RESUME_URL || '/Lakshya%20Grover.pdf'
+  const resumeUrl = process.env.NEXT_PUBLIC_RESUME_URL || 'https://drive.google.com/file/d/1cplwWfqMjvayRL4wNVXfpaH6L-fHO1BU/view?usp=sharing'
   const [scrolled, setScrolled] = useState(false)
   const [mobileOpen, setMobileOpen] = useState(false)
   useEffect(() => {
