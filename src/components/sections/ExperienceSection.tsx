@@ -1,4 +1,4 @@
-﻿'use client'
+'use client'
 
 import { useRef } from 'react'
 import { motion, useInView } from 'framer-motion'
@@ -132,17 +132,17 @@ export default function ExperienceSection() {
               className="relative pl-16 md:pl-24"
             >
               <div className="absolute left-0 md:left-4 top-0 w-8 h-8 rounded-full flex items-center justify-center glass border border-accent-emerald/40">
-                <span className="text-accent-emerald text-xs">ðŸŽ“</span>
+                <span className="text-accent-emerald text-xs">🎓</span>
               </div>
 
               <div className="glass rounded-2xl p-6 md:p-8 border border-white/5">
                 <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-3">
                   <div>
-                    <h3 className="font-display font-bold text-xl text-text-primary mb-1">B.Tech â€” Information Technology</h3>
+                    <h3 className="font-display font-bold text-xl text-text-primary mb-1">B.Tech — Information Technology</h3>
                     <div className="font-mono text-sm font-semibold text-accent-emerald">Guru Gobind Singh Indraprastha University</div>
                   </div>
                   <div className="flex flex-col sm:items-end gap-1.5">
-                    <span className="font-mono text-xs text-text-muted">Aug 2020 â€“ Jul 2024</span>
+                    <span className="font-mono text-xs text-text-muted">Aug 2020 – Jul 2024</span>
                     <span className="font-mono text-xs px-2.5 py-1 rounded-md bg-accent-emerald/10 border border-accent-emerald/25 text-accent-emerald">CGPA: 9.0/10</span>
                   </div>
                 </div>

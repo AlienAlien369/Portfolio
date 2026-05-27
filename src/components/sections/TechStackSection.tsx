@@ -1,4 +1,4 @@
-﻿'use client'
+'use client'
 
 import { useRef, useState } from 'react'
 import { motion, useInView } from 'framer-motion'
@@ -187,8 +187,8 @@ export default function TechStackSection() {
               className="mt-8 text-text-secondary text-sm leading-relaxed font-body"
             >
               {activeCategory === 'frontend' && 'React 18 with TypeScript, Next.js App Router, and Framer Motion. Built 50+ responsive interfaces with pixel-perfect design systems and performance-first architecture.'}
-              {activeCategory === 'backend' && 'ASP.NET Core for enterprise-grade APIs, Node.js for real-time services. OAuth 2.0, RBAC, rate limiting, structured logging â€” production hardened across 25+ APIs.'}
-              {activeCategory === 'database' && 'SQL Server with optimized stored procedures, MongoDB aggregation pipelines, Redis caching. Consistently achieving 35â€“50% query performance improvements.'}
+              {activeCategory === 'backend' && 'ASP.NET Core for enterprise-grade APIs, Node.js for real-time services. OAuth 2.0, RBAC, rate limiting, structured logging — production hardened across 25+ APIs.'}
+              {activeCategory === 'database' && 'SQL Server with optimized stored procedures, MongoDB aggregation pipelines, Redis caching. Consistently achieving 35–50% query performance improvements.'}
               {activeCategory === 'devops' && 'Azure DevOps CI/CD pipelines, Docker containerization, IIS reverse proxy configuration, Cloudinary media optimization. Infrastructure as code mindset.'}
             </motion.p>
           </div>
