@@ -1,4 +1,4 @@
-﻿'use client'
+'use client'
 
 import { useRef, useState } from 'react'
 import { motion, useInView, AnimatePresence } from 'framer-motion'
@@ -17,25 +17,25 @@ const designPrinciples = [
   {
     title: 'Security by Default',
     desc: 'JWT/OAuth 2.0 at the gateway, RBAC at every service layer, zero-trust internal communication.',
-    icon: 'ðŸ”',
+    icon: '🔐',
     color: '#3b82f6',
   },
   {
     title: 'Performance First',
     desc: 'Redis caching, connection pooling, indexed queries, CDN-served assets. Every layer optimized.',
-    icon: 'âš¡',
+    icon: '⚡',
     color: '#f59e0b',
   },
   {
     title: 'Observable Systems',
     desc: 'Structured logging, distributed tracing, health checks, and alerting built from day one.',
-    icon: 'ðŸ“Š',
+    icon: '📊',
     color: '#10b981',
   },
   {
     title: 'Resilient by Design',
     desc: 'Circuit breakers, retry policies, graceful degradation, and chaos-tested failure modes.',
-    icon: 'ðŸ›¡',
+    icon: '🛡',
     color: '#ec4899',
   },
 ]
@@ -68,7 +68,7 @@ export default function ArchitectureSection() {
             <span className="gradient-text">Mindset</span>
           </h2>
           <p className="text-text-secondary max-w-2xl">
-            I don&apos;t just write code â€” I architect systems. Every component is designed with security, performance, and observability as first-class concerns.
+            I don&apos;t just write code — I architect systems. Every component is designed with security, performance, and observability as first-class concerns.
           </p>
         </motion.div>
 
@@ -80,7 +80,7 @@ export default function ArchitectureSection() {
           className="glass rounded-2xl border border-white/5 p-8 mb-12 overflow-x-auto"
         >
           <div className="font-mono text-xs text-text-muted mb-6 uppercase tracking-widest">
-            â¬¡ Request Flow Architecture
+            ⬡ Request Flow Architecture
           </div>
 
           <div className="flex items-center gap-0 min-w-max mx-auto w-fit">
