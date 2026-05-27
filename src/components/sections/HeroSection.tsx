@@ -91,7 +91,7 @@ export default function HeroSection() {
   const sectionRef = useRef<HTMLElement>(null)
   const { scrollYProgress } = useScroll({ target: sectionRef })
   const y = useTransform(scrollYProgress, [0, 1], [0, -100])
-  const opacity = useTransform(scrollYProgress, [0, 0.5], [1, 0])
+  const opacity = useTransform(scrollYProgress, [0, 0.8], [1, 0])
 
   const typewriterText = useTypewriter([
     'Scalable Cloud Systems',

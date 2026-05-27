@@ -1,4 +1,4 @@
-'use client'
+﻿'use client'
 
 import { useRef } from 'react'
 import { motion, useInView } from 'framer-motion'
@@ -32,11 +32,11 @@ function MetricCard({ metric, isInView }: { metric: typeof metrics[0]; isInView:
 
 export default function AboutSection() {
   const ref = useRef<HTMLElement>(null)
-  const isInView = useInView(ref, { once: true, margin: '-100px' })
+  const isInView = useInView(ref, { once: true, margin: '0px' })
 
   const pillars = [
     { icon: Globe, label: 'Cloud Architecture', desc: 'Designing for resilience, scalability, and zero-downtime deployments' },
-    { icon: Zap, label: 'Performance Engineering', desc: '45% query optimization, 30% API latency reduction — measured impact' },
+    { icon: Zap, label: 'Performance Engineering', desc: '45% query optimization, 30% API latency reduction â€” measured impact' },
     { icon: Code2, label: 'Full-Stack Depth', desc: '.NET backend to React frontend, end-to-end ownership' },
     { icon: Cpu, label: 'System Design', desc: 'RBAC, reverse proxies, event-driven pipelines, observability' },
   ]
@@ -73,13 +73,13 @@ export default function AboutSection() {
             </h2>
             <div className="max-w-3xl space-y-4 text-text-secondary leading-relaxed">
               <p>
-                I&apos;m a Full-Stack Engineer who builds enterprise systems that don&apos;t just work — they <span className="text-text-primary font-medium">scale under pressure</span>, remain secure under attack, and deliver measurable performance gains in production.
+                I&apos;m a Full-Stack Engineer who builds enterprise systems that don&apos;t just work â€” they <span className="text-text-primary font-medium">scale under pressure</span>, remain secure under attack, and deliver measurable performance gains in production.
               </p>
               <p>
                 With experience spanning <span className="text-text-primary font-medium">ASP.NET Core microservices</span> to <span className="text-text-primary font-medium">React TypeScript dashboards</span>, I take ownership of the full stack. My engineering decisions are driven by data: I&apos;ve reduced query execution time by 45%, cut API latency by 30%, and maintained 99.9% uptime across systems serving 5,000+ active users.
               </p>
               <p>
-                I thrive at the intersection of <span className="text-text-primary font-medium">system design</span> and <span className="text-text-primary font-medium">product execution</span> — architecting authentication frameworks, reverse proxy configurations, real-time data pipelines, and cloud-native deployments with equal confidence.
+                I thrive at the intersection of <span className="text-text-primary font-medium">system design</span> and <span className="text-text-primary font-medium">product execution</span> â€” architecting authentication frameworks, reverse proxy configurations, real-time data pipelines, and cloud-native deployments with equal confidence.
               </p>
             </div>
           </motion.div>

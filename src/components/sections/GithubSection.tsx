@@ -1,4 +1,4 @@
-'use client'
+﻿'use client'
 
 import { useRef, useState } from 'react'
 import { motion, useInView } from 'framer-motion'
@@ -16,7 +16,7 @@ const stats = [
 
 export default function GithubSection() {
   const ref = useRef<HTMLElement>(null)
-  const isInView = useInView(ref, { once: true, margin: '-100px' })
+  const isInView = useInView(ref, { once: true, margin: '0px' })
 
   const statsUrl = `https://github-profile-summary-cards.vercel.app/api/cards/stats?username=${githubUsername}&theme=github_dark`
   const langsUrl = `https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=${githubUsername}&theme=github_dark`

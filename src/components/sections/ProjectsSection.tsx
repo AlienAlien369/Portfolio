@@ -1,4 +1,4 @@
-'use client'
+﻿'use client'
 
 import { useRef, useState } from 'react'
 import { motion, AnimatePresence, useInView } from 'framer-motion'
@@ -155,7 +155,7 @@ export default function ProjectsSection() {
     .filter(Boolean)
 
   const ref = useRef<HTMLElement>(null)
-  const isInView = useInView(ref, { once: true, margin: '-100px' })
+  const isInView = useInView(ref, { once: true, margin: '0px' })
   const [activeFilter, setActiveFilter] = useState('all')
 
   const pinnedProjects = projects.filter((p) => pinnedProjectIds.includes(p.id))
