@@ -124,10 +124,7 @@ export const experiences: Experience[] = [
     company: 'Acxiom Consulting',
     role: '.NET Developer',
     period: 'Feb 2024 – Oct 2024',
-    location: 'Gurugram, India',
-    type: 'fulltime',
-    highlights: [
-      'Contributed to 20+ ASP.NET MVC modules across 3 enterprise projects',
+    location: 'Noida, Uttar Pradesh', across 3 enterprise projects',
       'Optimized 25+ T-SQL stored procedures with indexing and CTEs — 40% performance improvement',
       'Built 15+ backend APIs handling 500+ daily transactional requests with structured logging',
       'Integrated 5+ third-party services including payment gateways and SMS APIs',
