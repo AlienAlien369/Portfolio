@@ -1,4 +1,4 @@
-'use client'
+﻿'use client'
 
 import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
@@ -13,7 +13,7 @@ const links = [
 ]
 
 export default function Navbar() {
-  const resumeUrl = process.env.NEXT_PUBLIC_RESUME_URL || 'https://drive.google.com/file/d/1cplwWfqMjvayRL4wNVXfpaH6L-fHO1BU/view?usp=sharing'
+  const resumeUrl = process.env.NEXT_PUBLIC_RESUME_URL || 'https://drive.google.com/file/d/1NeHoxEZWQiLNKWgsXFn26cD6CPNjv80l/view?usp=sharing'
   const [scrolled, setScrolled] = useState(false)
   const [mobileOpen, setMobileOpen] = useState(false)
   useEffect(() => {

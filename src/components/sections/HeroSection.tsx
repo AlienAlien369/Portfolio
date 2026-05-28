@@ -1,4 +1,4 @@
-'use client'
+﻿'use client'
 
 import { useEffect, useRef, useState } from 'react'
 import { motion, useScroll, useTransform } from 'framer-motion'
@@ -87,7 +87,7 @@ function ParticleCanvas() {
 }
 
 export default function HeroSection() {
-  const resumeUrl = process.env.NEXT_PUBLIC_RESUME_URL || 'https://drive.google.com/file/d/1cplwWfqMjvayRL4wNVXfpaH6L-fHO1BU/view?usp=sharing'
+  const resumeUrl = process.env.NEXT_PUBLIC_RESUME_URL || 'https://drive.google.com/file/d/1NeHoxEZWQiLNKWgsXFn26cD6CPNjv80l/view?usp=sharing'
   const sectionRef = useRef<HTMLElement>(null)
   const { scrollYProgress } = useScroll({ target: sectionRef, offset: ['start start', 'end start'] })
   const y = useTransform(scrollYProgress, [0, 1], [0, -100])
